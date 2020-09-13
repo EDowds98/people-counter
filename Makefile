@@ -1,3 +1,5 @@
+# obtained from pololu stk500v2 docs
+
 MCU=atmega168p
 PORT=$(shell pavr2cmd --prog-port)
 CFLAGS=-g -Wall -mcall-prologues -mmcu=$(MCU) -Os
